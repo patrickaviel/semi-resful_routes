@@ -55,5 +55,6 @@ $route['new'] = 'products/new';
 $route['edit'] = 'products/edit';
 $route['create'] = 'products/create';
 $route['update'] = 'products/update';
+$route['show/(:any)'] = 'products/show/$1';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

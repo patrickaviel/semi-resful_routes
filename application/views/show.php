@@ -21,7 +21,7 @@
             <p><?=$product['price']?></p>
         </div>
         <div class="links">
-            <a href="products/edit/<?=$product['id']?>">Edit</a>|<a href="<?=base_url();?>">Back</a>
+        <a href="/products/edit/<?=$product['id']?>">Edit</a>|<a href="<?=base_url();?>">Back</a>
         </div>
         
     </div>
